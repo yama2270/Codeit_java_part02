@@ -1,8 +1,8 @@
 public class hwayoungProfile {
     public static void main(String[] args) {
 
-    person hwayoung = new person("hwayoung","dfd","df",28);
-    hwayoung.name = "hwayoung";
+        person hwayoung = new person("hwayoung","male","0106684270",28);
+        System.out.println(hwayoung.name);
 
 //    person hwayoung = new person("hwayoung","male","01066842270",28);
 //    System.out.println(hwayoung.name);

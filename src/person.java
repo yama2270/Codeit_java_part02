@@ -4,18 +4,14 @@ public class person {
     String number;
     int age;
 
-    public person(String setName,String setSex,String setNumber,int setAge){
-        name = setName;
-        sex = setSex;
+    public person(String name,String setSex,String setNumber,int setAge){
+        this.name = name;
+        this.sex = setSex;
         number = setNumber;
         age = setAge;
     }
 
-    public person(String setName,String setSex,String setNumber){
-        name = setName;
-        sex = setSex;
-        number = setNumber;
-    }
+
 //    public void setAge(int newAge) {
 //        if (newAge>0) {
 //            age = newAge;
